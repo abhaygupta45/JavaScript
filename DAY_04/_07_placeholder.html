@@ -1,0 +1,45 @@
+<!-- Form element
+Placeholder attribute
+
+<input type="text" placeholder="Enter your name baby"> -->
+
+<!-- Label attribute
+Label element represents a caption for an item in a user interface.
+
+<label for="">
+    Enter your username :
+    <input type="text" placeholder="username">
+</label> -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PlaceHolder</title>
+</head>
+<body>
+    <form action="/action">
+
+        <!-- This is basic reprentation of label without using id -->
+<label>
+    USERNAME
+    <input type="text" placeholder="enter username"/>
+</label>
+   
+
+<!-- This is the correct way we can use level
+here we are also using div container in the place of br tag  -->
+<div>
+<label for="password"> Enter your password</label>
+<input type="password" id="password" placeholder="Please enter your password">
+</div>
+
+<div>
+    <label for="number"> Enter age mere bete</label>
+    <input type="age" id="number" placeholder="Emter your real age beta">
+</div>
+
+</form>
+</body>
+</html>
