@@ -1,0 +1,21 @@
+/* Practice Question
+
+Write CSS for these elements according to the given style guidelines:
+
+h2 : orange text
+button : blue background color : white text
+P : black background color white text */
+
+h2{
+    color: orange;
+}
+
+button{
+    color: white;
+    background-color: blue;
+}
+
+p{
+    color: white;
+    background-color: black;
+}
