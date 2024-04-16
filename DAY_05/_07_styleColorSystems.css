@@ -1,0 +1,20 @@
+/* Color Systems
+
+Named Colors     color = Black;
+
+Each browser recognizes around 140 named colors. 
+Eg - red, blue, pink, purple, megenta, teal etc. */
+
+/* RGB color systems
+RGB     color =(0,0,0);
+
+Red Green blue (255, 0, 0)
+
+red is rgb(255, 0, 0)
+black is rgb(0,0,0)
+blue is rgb(0,0,255)
+yellow is rgb(255, 255, 0) */
+
+h2{
+   color: rgb(120,0,120);
+}
