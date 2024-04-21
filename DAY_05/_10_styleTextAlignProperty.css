@@ -1,0 +1,22 @@
+/* Text Properties
+
+1. text-align
+2. font-weight
+3. text-docoration
+4. line-height
+5. letter-spacing
+6. font-size */
+
+/* text-align
+1. text-align: left/start
+2. text-align: right/end
+3. text-align : center
+4. text-align : justify */
+
+h1{
+    text-align: center;
+}
+
+h3{
+    text-align: right;
+}
