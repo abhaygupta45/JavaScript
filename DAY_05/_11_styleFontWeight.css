@@ -1,0 +1,45 @@
+/* <!-- font-weight property 
+font-weight: normal
+font-weight: bold
+font-weight: 100
+font-weight: bolder
+font-weight: lighter --> */ 
+
+h1{
+    text-align: center;
+}
+
+h3{
+    text-align: start;
+}
+
+p{
+    text-align: justify;
+
+}
+
+h2{
+    font-weight: 800;
+}
+
+
+/* text decoration
+sets the apperance of decorative lines on text like underline.
+
+text-decoration: underline
+text-decoration: overline
+text-decoration: line-through
+for more queries search in mdn
+*/
+
+h1{
+    text-decoration: underline;
+}
+
+h3{
+    text-decoration: line-through;
+}
+
+h2{
+    text-decoration: overline;
+}
