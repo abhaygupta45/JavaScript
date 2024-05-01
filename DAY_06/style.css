@@ -1,0 +1,216 @@
+/* selector in css
+
+1. Universal Selector 
+to select everything in a document 
+
+*{
+    property: value;
+} */
+
+*{
+    font-family: 'Courier New';
+
+}
+
+/* 2. Element Selector
+
+selects all elements of the same type.
+h1{
+    property: value;
+} */
+
+
+h1,h3{
+    color:  #b92b27;
+}
+
+/* 3. Id selector
+
+selects an element based on the value of the elements id attribute.
+
+#myId{
+    property: value;
+} */
+
+#login {
+    background-color: white;
+}
+
+#signup {
+    background-color: #b92b27;
+    color: whiteq;
+}
+
+/* 4. Class Selector
+
+selects an element based on their class attribute.
+.myclass{
+    property: value;
+} */
+
+.upvote{
+    background-color: green;
+    color: aliceblue;
+}
+
+
+/* Descedant selector  */
+
+.post a{
+    color: purple;
+    background-color: yellow ;
+}
+
+nav ul li a {
+    color: hotpink;
+}
+
+/* Adjacent Sibling combinator */
+/* eg - Heading3 that comes immediately after any paragraph
+
+sibling combinator p+h3{
+    property : value;
+} */
+
+P + H3 {
+    text-decoration: underline;
+}
+
+.upvote + button {
+    background-color: cornflowerblue;
+    color: darkblue;
+}
+
+/* Child Combinator 
+Eg. Selects all buttons which are direct children of spans
+
+child selector
+span > button {
+    property: value;
+} */
+
+div > input {
+    background-color: darksalmon;
+}
+
+/* Attribute Selector
+
+Selects elements based on the presence or value of a given attribute
+
+input [attr="value"]{
+    property;value
+
+    we will learn later.
+} */
+
+input[type="text"] {
+    color: green;
+}
+
+input[type="password"] {
+     color: red;
+}
+
+input[type]{
+    background-color: ghostwhite;
+}
+
+
+/* practice question
+
+Write css statement to implement the following.
+
+Set the color for paragraphs inside divs with the id "myId" to green. */
+
+
+#myId {
+    color: green ;
+}
+
+/* alternative
+div[id = "myId"]{
+    color: green;
+} */ 
+
+/* PSEUDO CLASS
+A keyword added to a selector that specifies a special state of the selected element(s)
+
+:hover
+:active
+:checked
+:nth-of-type */
+
+button:hover{
+     background-color: black;
+     color: white;
+}
+
+button:active{
+    background-color: hotpink;
+    color: black;
+}
+
+p:active{
+    font-weight: bold;
+    color: green;
+}
+
+input[type="radio"]:checked + label {
+    color: red;
+    font-weight: bold;
+}
+
+/* PSEUDO ELEMENTS
+A keyword added to a selector that lets you style a specific part of the selected elements
+
+:: ::first-letter
+:: ::first-line
+:: ::selection */
+
+h1::first-letter{
+    color: black;
+}
+
+p::first-line{
+    color: rgb(68, 0, 255);
+}
+
+p::selection{
+    background-color: rgb(198, 232, 50);
+}
+
+/* CSS : Cascading StyleSheets
+What is cacade is CSS?
+the CSS cascade algorithm's job is to select CSS declaration in order to determine the correct values for CSS properties.
+
+h3{
+backgroung-color: yellow;
+}
+
+h3{
+    background-color: blue;
+} */
+
+/* Selector Specificity
+What is specificity?
+Specificity is an algorithm that calculates the weight that is applied to a given CSS declaration.
+
+
+__________    ___________     ___________
+ id            class,         element &
+               attribute &    pesudo-
+               pesudo-class   element. */
+
+/* What to rememeber ?
+
+1. id > class > element
+2. more selector > less selector
+3. if specificity is same then we look for cascading */
+
+/* Inline specificity
+
+Inline styles are specific than id. */
+
+h3{
+    background-color: antiquewhite !important   ;
+}
