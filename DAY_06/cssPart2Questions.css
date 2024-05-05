@@ -1,0 +1,43 @@
+/* CSS part 2 assignment 
+PART 'A'*/
+
+*{
+    text-align: center;
+}
+
+#mainTopic{
+    color: blue;
+}
+
+h1,h3,h5{
+    font-style: Georgia;
+}
+
+.content{
+    background-color: cornflowerblue;
+    color: white;
+}
+
+div button {
+    background-color: purple;
+    color: azure;
+}
+
+/* PART "B" Pseduo class and elememts */
+
+button:hover{
+    background-color: yellow;
+    color: blue;
+}
+
+p:nth-of-type(2n){
+    color: yellow;
+}
+
+h1::first-letter{
+     color: red;
+}
+
+#yes:checked + lebel {
+    color: darkgreen;
+}
