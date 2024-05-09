@@ -1,0 +1,144 @@
+/* Box Model in CSS
+
+1. Height
+2. Width
+3. Border
+4. Padding
+5. Margin */
+
+/* 1. HEIGHT 
+By default, it sets the content areaheight of the element.
+div{
+    height: 100px;
+} */
+
+/* div{
+    height: 200px;
+    width: 500px;
+    background-color: pink;
+    border-width: 5px;
+    border-style: solid;
+    border-color: black;
+    border: 5px solid black;
+    border-left-color: blue;
+    border-left-style: dashed ;
+    border-radius: 10px;
+} */
+
+/* 2. BORDER
+Used to set an element's border
+a. border-width
+b. border-style
+c. border-color */
+
+/* h1{
+    border-color: green;
+    border-width: 2px;
+    border-style: dashed;
+    border: 2px dashed greens;
+
+} */
+
+/* BORDER SHORTHAND
+witth | style | color */
+
+/* BORDER SIDES
+To control an individual side of the box.
+1. border-left
+2. border-right
+3. border-top
+4. border-bottom */
+
+/* BORDER RADIUS
+Used to round the corners of an element's outer border edge */
+
+/* VIDEO NUMBER 06 PADDING PROPERTY
+padding-left
+padding-right
+padding-top
+padding-bottom
+div{
+    padding-left: 50px;
+} */
+
+/* div{
+    height: 200px;
+    width: 500px;
+    background-color: pink;
+    border: 5px solid black;
+    border-radius: 10px;
+    padding-top: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 10px 20px 30px 40px;
+}
+
+button{
+    border: 2px solid black;
+    border-radius: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    background-color: yellow;
+} */
+
+/* Padding Shorthand
+
+1. for all 4 sides
+padding: 50px;
+
+2. top and bottom | left and :right
+padding: 1px 2px;
+
+3. top | left and right | bottom
+padding: 1px 2px 3px;
+
+4. top | right | bottom | left
+padding: 1px 2px 3px 4px
+
+* CLOCKWISE */
+
+
+
+/* MARGIN 
+To set spacing on the outside of the border.
+1. margin- left
+2. margin- right
+3. margin- top
+4. margin- bottom
+
+div{
+    margin-left: 50px;
+} 
+SHORTHAND SAME AS PADDING
+
+*/
+
+/* UNITS IN CSS
+THERE ARE TWO TYPES OF UNITS IN CSS
+1. ABSOLUTE - px, pt, pc
+2. RELATIVE - %, em, rem  */
+
+/* 2. RELATIVE
+
+1. Percentages(%) :-  It is often used to define a size as relative to an element's parent object.
+eg. width : 33.33% // relative to the parent.
+margin-left : 50% // relative to the parent size. */
+
+h1{
+    border: 2px solid black;
+    width: 33.33%;
+}
+
+#outer{
+    height: 400px;
+    width: 400px;
+    background-color: pink;
+    margin: 50px;
+}
+
+#inner{
+    height: 100px;
+    width: 100px;
+    background-color: cornflowerblue;
+    margin-left: 36%;
+}
