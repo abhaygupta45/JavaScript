@@ -1,0 +1,52 @@
+/* INLINR V/S BLOCK 
+Block Elements
+Takes up the full-width available (whole block)
+Start from new line
+
+Inline Elements
+Takes up only neccessary width.
+Don't start from new line. */
+
+/* Display property-
+It sets whether an element is treated as a block or inline element and the layout used for its children.
+
+display : inline
+display : block */
+
+/* h2{
+    display: inline;
+    background-color: pink;
+}
+span{
+    display: block;
+    background-color: yellowgreen;
+} */
+
+/* span{
+    background-color: pink  ;
+    border: 2px solid black;
+    height: 100px;
+    width: 20px;
+    padding: 50px;
+}
+
+div{
+    background-color: pink  ;
+    border: 2px solid black;
+    height: 100px;
+    width: 20px;
+    padding: 50px; 
+} */
+
+div{
+    height: 200px;
+    width: 200px;
+    background-color: orange;
+    border: 2px solid black;
+    margin: 5px;
+    display: inline-block;
+}
+
+#third{
+    display: none;
+}
