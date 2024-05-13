@@ -1,0 +1,121 @@
+/* Alpha Channel
+Sets the opacity for a color Ranges from 0 to 1.
+0 means hidden
+1 means visible
+you can set the opacity of color like 0.1, 0.5 etc. */
+
+/* div{
+    height: 200px;
+    width: 200px;
+    background-color: rgba(255, 0, 0, 0.5);
+} */
+
+/* Opacity
+Sets the opacity for the element Ranges from 0 to 1.
+example- opacity: 0.5 */
+
+/* #opacity{
+    background-color: #ffa511;
+    opacity: 0.5;
+} */
+
+
+/* VIDEO NUMBER 2 */
+/* CSS Transitions 
+Transitions enable you to define the transition between two states of an element. */
+
+
+/* div {
+    height: 200px;
+    width: 200px;
+    background-color: #4dff00ff;
+    margin: 10px;
+    transition-duration: 1s;
+    transition-delay: 1s;
+}
+
+div:hover{
+    background-color: black;
+    border-radius: 50%;
+} */
+
+/* Transition Shorthand
+Property name | duration | timing-function | delay
+
+transition: margin_top 2s ease-in-out 0.2s; */
+
+/* div {
+    height: 100px;
+    width: 100px;
+    background-color: #4dff00ff;
+    margin: 0 auto;
+    margin-top: 10px;
+    transition: margin-top 2s ease-in-out 0.2s;
+}
+
+div:hover {
+    margin-top: 400px;
+    background-color: pink;
+} */
+
+/* VIDEO NUMBER 3 
+CSS Transform 
+This property lets you rotate, scale, skew, or translate an element.
+
+1. Rotate
+Transform: rotate (45deg); */
+
+section {
+    margin-top: 100px;
+}
+div {
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    background-color: #7aa874;
+    border: 2px solid black;
+    margin: 10px auto;
+}
+
+div:nth-of-type(2n) {
+    background-color: #f7db6a;
+}
+
+div:nth-of-type(3n) {
+    background-color: #ebb02d;
+}
+
+/* 1. transform rotate */
+
+#one {
+    transform: rotate(45deg);
+}
+
+/* 2. Scale 
+transform: scale (0.5);
+transform: scale (1.5); */
+
+#two {
+    transform: scale(0.5);
+    /* transform: scale(2); */
+}
+
+/* 3. translate
+transform: translate (50px, 50px);
+transform: translateX (10px);
+transform: translateY (10px); */
+
+#three {
+    transform: translate(100px, 100px);
+}
+
+/* 4. Skew
+transform: skew(30deg); */
+
+#four {
+    transform: skew(30deg);
+}
+
+#five {
+    transform: rotate(30deg) translateX(150px);
+}
