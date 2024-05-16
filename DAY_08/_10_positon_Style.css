@@ -1,0 +1,61 @@
+/* Position property
+The position CSS property sets how an elememt is positioned in a document. 
+The top, right, bottom, and left properties determine the final location of positioned elements.
+1. static
+2. relative
+3. avsolute
+4. fixed */
+
+/* Position - Static
+The top, right, bottom, left and z-index properties have no effect. 
+This is default value. */
+
+div{
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    text-align: center;
+    border: 3px solid black;
+    margin: 20px;
+    display: inline-block;
+}
+
+#static{
+    background-color: yellow;
+    position: static;
+    top: 100px;
+    left: 100px;
+}
+
+/* Postion - Relative
+the offsets is relative to itself based on the values of top, right, bottom, and left. */
+
+#relative {
+    background-color: yellow;
+    position: relative;
+    top: 100px;
+    left: 100px;
+}
+
+/* Positon - Absolute
+
+the element is remeoved from the normal document, flow and no space is created for the element in the page layout. 
+It is positioned relative to its closest positioned ancestor, if any; otherwise, it is placed relative to the initial containing block. */
+
+#absolute {
+    background-color: yellow;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+}
+
+/* Positon - Fixed
+The element is removed from the normal document flow, and no space is created for the element in the page layout.
+It is positioned relative to the initial containing block established by the viewport */
+
+#fixed{
+    background-color: red;
+    position: fixed;
+    top: 100px;
+    left: 100px;
+}
