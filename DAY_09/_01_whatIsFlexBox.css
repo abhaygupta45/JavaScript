@@ -1,0 +1,14 @@
+/* video no 1
+what is flexbox?
+flexible box layout
+It is a one-dimensional layout method for arranging items in rows or columns. */
+
+
+/* video number 2
+Flexbox Direction
+It sets how flex items are placed in the flex container, along which axis and directions.
+
+1. flexbox-direction:row; main axis, left to right.
+2. flexbox-direction:row-reverse; main axis, right to left.
+3. flexbox-direction:column; cross axis, top to bottom.
+4. flexbox-direction:column-reverse; cross axis, bottom to top. */
